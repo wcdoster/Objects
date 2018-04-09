@@ -30,7 +30,9 @@ const candidateInformation = Object.create({}, {
     }
 })
 
-
+function changeInformation(property, value) { 
+    candidateInformation[property] = value;
+}
 
 changeInformation("donationPage", "ben")
 console.log(candidateInformation.donationPage)
@@ -73,7 +75,7 @@ const platform = Object.create({},{
 //create article element 
 const eliArticle = document.createElement("article");
 //set the articles id
-eliArticle.setAttribute("id", "TN-5");
+eliArticle.setAttribute("id", candidateInformation.district);
 //get the dom element we want to append on the html file
 const body = document.getElementById("try");
 //iterate through the object and create a text node for every property
@@ -86,9 +88,6 @@ for (property in platform) {
 }
 
 
-function changeInformation(property, value) { 
-    candidateInformation[property] = value;
-}
 
 const changePlatform = (property, value) => platform[property] = value;
 changePlatform("crimeAndPunishment", "none")
