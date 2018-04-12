@@ -1,0 +1,62 @@
+* {
+    font-family: Georgia, Arial, sans-serif;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    vertical-align: middle;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 5px;
+    
+}
+
+section h3 {
+    text-align: center;
+}
+
+section p {
+    text-align: left;
+    padding-left: 10%;
+    padding-bottom: 8px;
+}
+
+section {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+}
+
+h3,
+p {
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+/* class styles */
+
+.img {
+    display: inline-block;
+    height: 150px;
+    width: 100%;
+}
+
+.europe {
+    background-color: #ffcc99;
+}
+
+.northAmerica {
+    background-color: #e6ffe6;
+}
