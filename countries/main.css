@@ -6,6 +6,8 @@ img {
     width: 50%;
     height: auto;
     vertical-align: middle;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 ul {
