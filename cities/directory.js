@@ -11,6 +11,13 @@ const CitiesDirectory = [
         attractions: ["Tower of London", "Westminster Abbey", "Tower Bridge", "Big Ben", "Buckingham Palace"]
     },
     {
+        name: "Chicago",
+        continent: "northAmerica",
+        image: "https://media-cdn.tripadvisor.com/media/photo-s/07/72/27/a3/chicago.jpg",
+        yearVisited: "2013",
+        attractions: ["Millenium Park", "The Bean", "Wrigley Field", "Willis Tower", "Navy Pier"]
+    },
+    {
         name: "Paris",
         image: "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-500759045_super.jpg?sharp=10&vib=20&w=1200",
         continent: "europe",
@@ -51,13 +58,6 @@ const CitiesDirectory = [
         continent: "europe",
         yearVisited: "2014",
         attractions: ["La Sagrada Familia", "Park Guell", "Gothic Quarter", "La Rambla", "Museau Picasso"]
-    },
-    {
-        name: "Madrid",
-        image: "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Spain/Madrid/madrid-overview-sunsetovermadrid-xlarge.jpg",
-        continent: "europe",
-        yearVisited: "2014",
-        attractions: ["Royal Palace", "Plaza Mayor", "Puerta del Sol", "Buen Retiro Park", "El Escorial"]
     },
     {
         name: "Dublin",
