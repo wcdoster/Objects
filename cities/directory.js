@@ -64,7 +64,7 @@ const CitiesDirectory = [
         image: "https://www.nationalgeographic.com/content/dam/travel/2017-digital/dublin/river-bridge-dublin-ireland.jpg",
         continent: "europe",
         yearVisited: "2017",
-        attractions: ["Guiness Storehouse", "Temple Bar", "Christchurch Cathedral", "Dublin Castle", "Kilmainham Gaol"]
+        attractions: ["Guinness Storehouse", "Temple Bar", "Christchurch Cathedral", "Dublin Castle", "Kilmainham Gaol"]
     },
     {
         name: "New York",
