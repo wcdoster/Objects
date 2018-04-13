@@ -1,12 +1,12 @@
 const cities = JSON.parse(localStorage.getItem("citiesDirectory"));
 
 const divElement = document.createElement("div");
-
 const article = document.getElementById("cities");
 
 const displayCities = (year) =>{
     cities.forEach(
         (currentCity) => {
+            const divElement = document.createElement("div");
             if (year === currentCity["yearVisited"] || !year){
                 const cityElement = document.createElement("section")
                 cityElement.classList = currentCity["continent"]
