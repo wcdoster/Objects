@@ -1,6 +1,7 @@
 //get directory from local storage
 const cities = JSON.parse(localStorage.getItem("citiesDirectory"));
 
+const fragment = document.createDocumentFragment();
 //create div for img
 const divElement = document.createElement("div");
 
@@ -64,11 +65,12 @@ const displayCities = (year) =>{
                             
                     }
                     //append article with section element
-                    article.appendChild(cityElement)
+                    fragment.appendChild(cityElement)
                 }
             }
         }
     )
+    article.appendChild(fragment);
 }
 
 displayCities();

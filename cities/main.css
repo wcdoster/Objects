@@ -2,12 +2,24 @@
     font-family: Georgia, Arial, sans-serif;
 }
 
+title {
+    display: none;
+}
+
+article {
+    display: inline-block;
+    text-align: center;
+}
+
 img {
+    display: inline-block;
     width: 50%;
     height: auto;
-    vertical-align: middle;
     border: 1px solid black;
     border-radius: 10px;
+    margin: auto;
+
+
 }
 
 ul {
@@ -36,9 +48,9 @@ section {
     display: inline-block;
     border: 2px solid black;
     border-radius: 10px;
+    margin: 10px;
     width: 30%;
     text-align: center;
-    margin: auto;
 }
 
 h3,
@@ -50,9 +62,9 @@ p {
 /* class styles */
 
 .img {
-    display: inline-block;
     height: 150px;
     width: 100%;
+    display: grid;
 }
 
 .europe {
@@ -61,4 +73,42 @@ p {
 
 .northAmerica {
     background-color: #e6ffe6;
+}
+
+/* Media Queries */
+
+@media (max-width: 1030px) {
+    .img {
+        height: 100px;
+    }
+}
+
+@media (max-width: 950px) {
+    section {
+        width: 45%;
+    }
+    .img {
+        height: 150px;
+    }
+}
+
+@media (max-width: 700px) {
+    .img {
+        height: 100px;
+    }
+}
+
+@media (max-width: 550px){
+    section {
+        width: 80%;
+    }
+    .img{
+        height: 150px;
+    }
+}
+
+@media (max-width: 400px) {
+    .img {
+        height: 100px;
+    }
 }
